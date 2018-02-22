@@ -1,7 +1,7 @@
 {
   "name": "todo-server",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "dev": "nodemon src/index.js --exec \"nodemon -r dotenv/config -r babel-register\"",
