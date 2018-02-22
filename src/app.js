@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import api from './api';
 const app = express();
 
-mongoose.connect('mongodb://tomash:test12345@ds145438.mlab.com:45438/todotz', {
+mongoose.connect('mongodb://localhost:27017/todo', {
     useMongoClient: true,
 });
 mongoose.Promise = global.Promise;
